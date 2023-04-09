@@ -1,38 +1,87 @@
-.App {
+*{
+  /* border: 1px solid black; */
+}
+
+.main-login-container{
+  /* width: 1920px; */
+  width: 100%;
+  height: 100vh;
+  /* height: 1080px; */
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: grid;
+  place-items: center;
+  /* border: 1px solid black; */
+}
+
+.user-icon{
+top: 180px;
+left: 860px;
+width: 200px;
+height: 200px;
+/* UI Properties */
+background: #EFEFEF 0% 0% no-repeat padding-box;
+display: grid;
+place-items: center;
+border-radius: 50%;
+/* border: 1px solid rgb(226, 14, 14); */
+}
+
+.welcome-text{
+  /* border: 1px solid black; */
+/* top: 96px;
+left: 844px; */
+margin-top: -70px;
+width:100%;
+height: 65px;
+text-align: center;
+font: normal normal bold 48px/65px Open Sans;
+letter-spacing: 0px;
+color: #0B3558;
+opacity: 1;
+font-size: 48px;
+}
+
+.sub-text{
+  font-size: 20px;
+  color: #0B3558;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  width: 500px;
+height: 55px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+/* border: 2px solid #003FB9; */
+border-radius: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fg{
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+  width: 100%;
+  height: 61px;
+  background: #003FB9 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border-radius: 4px !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* .MuiInputBase-input .MuiOutlinedInput-input .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  
+} */
+
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  border: 2px solid green !important;
+} */
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+  border: 2px solid #003FB9 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-home-div{
+  display: grid;
+  place-items:center;
 }
